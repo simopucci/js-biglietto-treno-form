@@ -29,7 +29,7 @@ Visualizzare il biglietto solo dopo che l'utente ha cliccato sul bottone.
 
 ### SVOLGIMENTO
 
-- Chiedo il numero di chilemtri da percorrere
+- Chiedo il numero di chilometri da percorrere
 - Chiedo l'età del passeggero
 - Calcolo il prezzo del biglietto e lo salvo in una variabile
 - Controllo l'età del passeggero
