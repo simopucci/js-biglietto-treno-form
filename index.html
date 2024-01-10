@@ -19,12 +19,13 @@
 </head>
 <body class="bg-primary-subtle">
     
+    <!-- Price Form -->
     <h2 class="text-center fw-bold">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
     <form>
         <div class="container p-3 d-flex justify-content-center">
             <div class="me-5 text-center">
                 <label for="" class="mb-2 fw-semibold">Nome e Cognome</label>
-                <input type="text" class="form-control" id="user-name">
+                <input type="text" class="form-control" id="username-input">
             </div>
             <div class="me-5 text-center">
                 <label for="" class="mb-2 fw-semibold">Quanti KM vuoi percorrere?</label>
@@ -41,11 +42,12 @@
         </div>
     </form>
 
+    <!-- Ticket -->
     <h2 class="text-center fw-bold mb-4">IL TUO BIGLIETTO</h2>
-    <div class="container d-flex px-5 py-3 bg-light rounded shadow justify-content-center border border-black d-none">
+    <div class="container d-flex px-5 py-3 bg-light rounded shadow justify-content-center border border-black d-none" id="user-ticket">
         <div class="me-5">
             <div class="card-header fw-semibold mb-4">Nome passeggero</div>
-            <code class="card-body" id="nome-passeggero"></code>
+            <code class="card-body" id="user-name"></code>
         </div>
         <div class="me-5">
             <div class="card-header fw-semibold mb-4">Offerta</div>
@@ -61,7 +63,7 @@
         </div>
         <div class="me-5">
             <div class="card-header fw-semibold mb-4">Costo biglietto</div>
-            <code class="card-body"></code>
+            <code class="card-body text-danger" id="final-price"></code>
         </div>
     </div>
 
